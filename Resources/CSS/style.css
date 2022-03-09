@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box !important;
+}
+
+* h1 {
+    font-size: clamp(1.5rem, 0.4rem + 4.5vw, 3rem);
+}
+
+* h2 {
+    font-size: clamp(1.0rem, 0.4rem + 4.5vw, 2.5rem);
+}
+
+*h3 {
+    font-size: clamp(0.8rem, 0.4rem + 4.5vw, 2.0rem);
+}
+
+*p {
+    font-size: clamp(0.6rem, 0.4rem + 4.5vw, 1.8rem)
+}
+
+.html {
+    font-size: 16px;
+}
+
+body {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 1rem;
+    text-align: center;
+    margin: clamp(1rem, 0.3rem + 4.5vw, 2.5rem);
+}
+
+.contentpart {
+    min-height: 1rem;
+    max-width: 100%;
+    color: white;
+    padding: 0.5rem;
+}
+
+.contentpart p {
+    color: gray;
+}
+
+#one {
+    text-align: center;
+}
+
+a {
+    font-size: clamp(0.5rem, 0.1rem + 4.5vw, 1.5rem);
+    color: aquamarine;
+}
+
+.videocontent {
+    min-height: 1rem;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: clamp(1rem, 0.3rem + 4.5vw, 2rem);
+}
+
+.videocontentpart {
+    margin: clamp(1rem, 0.1rem + 4.5vw, 1.3rem);
+    padding: clamp(1rem, 0.1rem + 4.5vw, 1.3rem);
+}
+
+.picturesection {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    min-height: 1rem;
+}
+
+.picturecontent {
+    min-height: 1rem;
+    max-width: 30rem;
+}
+
+.picturecontent img {
+    max-width: 100%;
+    height: auto;
+}
+
+#two {
+    text-align: end;
+    color: gray;
+}
